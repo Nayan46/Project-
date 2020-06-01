@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Traffics Info</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_symbols">Traffic Symbols</string>
+    <string name="nav_rules">Traffic Rules</string>
+    <string name="nav_more">More</string>
+
+    <string name="logo_name">All Rights Are Preserved</string>
+
+</resources>
