@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">@color/fav</color>
+    <color name="colorPrimaryDark">@color/splash_bg</color>
     <color name="colorAccent">#D81B60</color>
 
 
@@ -13,8 +13,8 @@
     <color name="icon_text_color">#000000</color>
 
     <color name="fav">#374954</color>
-    <color name="ts">#C39BD3</color>
-    <color name="tr">#2980B9</color>
+    <color name="fag">#DCE4EE</color>
+    <color name="fag_btn">#94ADCA </color>
 
 
 
