@@ -8,8 +8,12 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import com.codewithnayan.trafficsinfo.Adapters.SymbolAdapter;
 import com.codewithnayan.trafficsinfo.Models.SymbolModel;
@@ -17,17 +21,15 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
 
     RecyclerView recyclerView;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        //getSupportActionBar().setTitle("Home");
-
 
         // referencing the recyclerView
         recyclerView = findViewById(R.id.recyclerView);
@@ -70,6 +72,8 @@ public class MainActivity extends AppCompatActivity {
         // To display Home Fragment at the beginning
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
 
+
+
     }
 
     // implementing on create listener
@@ -101,4 +105,6 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
     };
+
+
 }
