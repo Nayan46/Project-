@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.codewithnayan.trafficsinfo.Adapters.SymbolAdapter;
@@ -25,11 +26,16 @@ public class MainActivity extends AppCompatActivity  {
 
     RecyclerView recyclerView;
 
+    ImageButton btnSearch;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        btnSearch = findViewById(R.id.btn_search);
 
         // referencing the recyclerView
         recyclerView = findViewById(R.id.recyclerView);
@@ -71,6 +77,21 @@ public class MainActivity extends AppCompatActivity  {
 
         // To display Home Fragment at the beginning
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
+
+
+        // Search
+
+
+        btnSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, MapsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
 
 
 

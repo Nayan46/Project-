@@ -3,6 +3,7 @@ package com.codewithnayan.trafficsinfo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 
 public class ContactUs extends AppCompatActivity {
 
@@ -10,5 +11,25 @@ public class ContactUs extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_us);
+
+        // Setting  title to the Activity
+        getSupportActionBar().setTitle("Contact Us");
+
+        // Setting the Up button in Activity to return to More fragment
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    // Setting the Up button in Activity to return to More fragment
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        super.onOptionsItemSelected(item);
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                break;
+        }
+
+        return true;
     }
 }

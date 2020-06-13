@@ -13,7 +13,7 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         // To hide the toolbar from splash activity
-//        getSupportActionBar().hide();
+        getSupportActionBar().hide();
 
         Thread thread = new Thread()
         {
