@@ -34,6 +34,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         arrayList.add(Kathmandu);
         arrayList.add(Bharatpur);
         arrayList.add(Pokhara);
+
     }
 
 
@@ -60,9 +61,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
 //
-//        LatLng Chitwan = new LatLng(27.689523, 84.430713);
-//        mMap.addMarker(new MarkerOptions().position(Kathmandu).title("District Traffic Police Office, Chitwan"));
-//        mMap.moveCamera(CameraUpdateFactory.newLatLng(Chitwan));
+//        LatLng Chitawan = new LatLng(27.689523, 84.430713);
+//        mMap.addMarker(new MarkerOptions().position(Kathmandu).title("District Traffic Police Office, Chitawan"));
+//        mMap.moveCamera(CameraUpdateFactory.newLatLng(Chitawan));
 
 
     }

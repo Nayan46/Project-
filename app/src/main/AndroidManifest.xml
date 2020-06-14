@@ -34,19 +34,17 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".VersionControl" />
         <activity android:name=".Feedback" />
         <activity android:name=".ContactUs" />
         <activity android:name=".AboutUs" />
         <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
 

@@ -2,7 +2,6 @@ package com.codewithnayan.trafficsinfo;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -12,11 +11,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
+import com.codewithnayan.trafficsinfo.Adapters.RuleAdapter;
 import com.codewithnayan.trafficsinfo.Adapters.SymbolAdapter;
+import com.codewithnayan.trafficsinfo.Models.RuleModel;
 import com.codewithnayan.trafficsinfo.Models.SymbolModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -40,7 +39,7 @@ public class MainActivity extends AppCompatActivity  {
         // referencing the recyclerView
         recyclerView = findViewById(R.id.recyclerView);
 
-        // Giving Data to Adapter
+        // Giving Data to Adapter for tSymbols
 
         ArrayList<SymbolModel> list = new ArrayList<>();
         list.add(new SymbolModel(R.drawable.i , "10% Slope Danger Warning Road Sign"));
@@ -59,14 +58,44 @@ public class MainActivity extends AppCompatActivity  {
         list.add(new SymbolModel(R.drawable.xiv, "Zigzag Road Warning Road Sign"));
         list.add(new SymbolModel(R.drawable.xv, "Width Restriction Road Sign"));
         list.add(new SymbolModel(R.drawable.xvi, "Stop Sign on Pole"));
+        list.add(new SymbolModel(R.drawable.xvii, "Children Traffic Sign"));
+        list.add(new SymbolModel(R.drawable.xviii, "MUST wear a protective helmet. Helmets MUST comply with the Regulations and they MUST be fastened securely."));
+        list.add(new SymbolModel(R.drawable.xviii, "Don't sit children on fuel tanks or stand them in front of the rider"));
+        list.add(new SymbolModel(R.drawable.xviii, "Dangerous Curse To Left Road Sign"));
+
+
 
 
         SymbolAdapter adapter = new SymbolAdapter(list, this);
         recyclerView.setAdapter(adapter);
 
-        // GridLayout
+        // GridLayout for tSymbols
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 3);
         recyclerView.setLayoutManager(gridLayoutManager);
+
+
+
+//
+//        ArrayList<RuleModel> list1 = new ArrayList<>();
+//        list1.add(new RuleModel("While driving always carry your driving license and important documents such as your vehicle registration certificate."));
+//        list1.add(new RuleModel("MUST NOT carry more than one pillion rider and he/she MUST sit astride the machine on a proper seat and should keep both feet on the footrests."));
+//        list1.add(new RuleModel("You should be aware of what is behind and in the sides before maneuvering. Look behind you; use mirrors if they are fitted."));
+//        list1.add(new RuleModel("Never Drink while driving."));
+//        list1.add(new RuleModel("Follow the traffic signals, lights and signs."));
+//        list1.add(new RuleModel("Avoid using the cell phone when driving. If urgent move to left, stop and then take the call."));
+//        list1.add(new RuleModel("Always use a helmet."));
+//        list1.add(new RuleModel("Do not ride or wheel your vehicle on to the footpath."));
+//        list1.add(new RuleModel("Understand the signals given by other road users and use the same when riding."));
+//        list1.add(new RuleModel("Never stop abruptly in traffic. Move to the left and slow down."));
+//
+//        RuleAdapter adapter1 = new RuleAdapter(list1, this);
+//        recyclerView.setAdapter(adapter1);
+//
+//        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+//        recyclerView.setLayoutManager(layoutManager);
+
+
+
 
 
         //referencing  the bottom navigation

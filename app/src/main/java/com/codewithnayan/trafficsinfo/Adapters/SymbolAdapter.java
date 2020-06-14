@@ -30,7 +30,7 @@ public class SymbolAdapter extends RecyclerView.Adapter<SymbolAdapter.viewHolder
     @NonNull
     @Override
     public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.fragment_tsymbols, parent, false);
+        View view = LayoutInflater.from(context).inflate(R.layout.list_item_tsymbols, parent, false);
         return new viewHolder(view);
     }
 

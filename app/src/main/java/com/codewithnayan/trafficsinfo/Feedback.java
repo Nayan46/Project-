@@ -44,7 +44,7 @@ public class Feedback extends AppCompatActivity {
         Settings.Secure.getString(getApplicationContext().getContentResolver(),
         Settings.Secure.ANDROID_ID);
 
-        firebase = new Firebase("https://nayan-gurung.firebaseio.com/Users" + UniqueID);
+        firebase = new Firebase("https://traffic-infomatory-system.firebaseio.com/Users" + UniqueID);
 
         //onclick listner for send button
 

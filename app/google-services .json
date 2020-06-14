@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "305234020733",
+    "firebase_url": "https://traffic-infomatory-system.firebaseio.com",
+    "project_id": "traffic-infomatory-system",
+    "storage_bucket": "traffic-infomatory-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305234020733:android:b5508da46fc8b4701d6414",
+        "android_client_info": {
+          "package_name": "com.codewithnayan.trafficsinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305234020733-md52e6jrusnjthlic0p95hdtbku32kcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQyoWYa1NvBQLQrS_jOuhzve3-CjXL33s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305234020733-md52e6jrusnjthlic0p95hdtbku32kcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
