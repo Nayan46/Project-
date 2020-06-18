@@ -1,5 +1,6 @@
 package com.codewithnayan.trafficsinfo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +12,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -20,6 +23,9 @@ import java.util.Locale;
 public class HomeFragment extends Fragment {
 
     View rootView;
+
+    FloatingActionButton fabAddNew;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -31,6 +37,17 @@ public class HomeFragment extends Fragment {
 
         TextView textView = rootView.findViewById(R.id.text_view_date);
         textView.setText(currentDate);
+
+        //floating action button
+        fabAddNew = rootView.findViewById(R.id.fab_add_contact);
+
+        fabAddNew.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), ContactActivity.class);
+                startActivity(intent);
+            }
+        });
 
         return rootView;
     }
