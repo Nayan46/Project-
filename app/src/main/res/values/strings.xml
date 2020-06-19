@@ -21,4 +21,36 @@
 
     <string name="item_trules">Traffic Rules and Regulations Must Be Followed:</string>
 
+
+
+    //Recycler View -- Emergency Contacts
+    <string name="a">Police Control	100</string>
+    <string name="b">Police Emergency Number	4228435</string>
+    <string name="c">Metropolitan Police Range (Kathmandu)	4261945/4261790</string>
+    <string name="d">Metropolitan Police Range (Lalitpur)	5521207</string>
+    <string name="e">Metropolitan Police Range (Bhaktapur)	6614821</string>
+    <string name="f">Paropakar Ambulance Service	4260859</string>
+    <string name="g">Lalitpur Redcross Ambulance Service	5545666</string>
+    <string name="h">Bishal Bazar Ambulance Service	4244121</string>
+    <string name="i">Redcross Ambulance Service	4228094</string>
+    <string name="j">Maternity Hospital	4253276</string>
+    <string name="k">Norvic Hospital	4258554</string>
+    <string name="l">National Kidney Centre	4429866/4426016</string>
+    <string name="m">Fire Brigade	101</string>
+    <string name="n">Blood Bank	4225344</string>
+
+
+    //Version History
+    <string name="fee_ver">Version 1.0.0</string>
+    <string name="fee_nav">Navigation System</string>
+    <string name="fee_tsym">Traffic Symbols Section</string>
+    <string name="fee_trules">Traffic Rules Section</string>
+    <string name="fee_current_date">Current date and time display</string>
+    <string name="fee_emergency">Emergency contacts </string>
+    <string name="fee_about">About us section</string>
+    <string name="fee_contact">Contact us section</string>
+    <string name="fee_feedback">Feedback section</string>
+    <string name="fee_copy">@Copyright 2020 by Traffics Info</string>
+
+
 </resources>

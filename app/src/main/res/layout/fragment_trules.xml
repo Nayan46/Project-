@@ -3,4 +3,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    android:orientation="vertical"/>
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/item_trules"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_trules"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -12,12 +12,16 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import com.denzcoskun.imageslider.ImageSlider;
+import com.denzcoskun.imageslider.models.SlideModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 import java.util.Locale;
 
 public class HomeFragment extends Fragment {
@@ -48,6 +52,16 @@ public class HomeFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+
+        // Image-slider
+        ImageSlider imageSlider = rootView.findViewById(R.id.slider);
+        List<SlideModel> slideModels = new ArrayList<>();
+        slideModels.add(new SlideModel(R.drawable.homei));
+        slideModels.add(new SlideModel(R.drawable.homeii));
+        slideModels.add(new SlideModel(R.drawable.homeiii));
+        slideModels.add(new SlideModel(R.drawable.homeiv));
+        imageSlider.setImageList(slideModels, true);
 
         return rootView;
     }

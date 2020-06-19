@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     android:background="@color/background">
 
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/slider"
+        app:auto_cycle="true"
+        app:delay="0"
+        app:period="3000"
+        app:corner_radius="20"
+        app:error_image="@color/icon_color"
+        app:placeholder="@color/icon_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 
     <TextView
         android:id="@+id/text_view_date"
@@ -20,7 +31,7 @@
         app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textColor="#000000"/>
+        android:textColor="@color/current_date_color"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_add_contact"

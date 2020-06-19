@@ -38,6 +38,9 @@ dependencies {
     // library for about us activity
     implementation 'com.github.medyo:android-about-page:1.1.1'
 
+    // adding image-slider library
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.0.6'
+
 
 }
 
