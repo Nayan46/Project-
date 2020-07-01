@@ -5,8 +5,13 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 import com.codewithnayan.trafficsinfo.Adapters.EmergencyAdapter;
 import com.codewithnayan.trafficsinfo.Models.EmergencyModel;
@@ -16,8 +21,6 @@ import java.util.ArrayList;
 public class ContactActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,7 @@ public class ContactActivity extends AppCompatActivity {
 
         // Setting the Up button in ContactActivity to return to Home fragment
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
 
         recyclerView = findViewById(R.id.rv_emergency);
@@ -69,5 +73,13 @@ public class ContactActivity extends AppCompatActivity {
         }
 
         return true;
+    }
+
+    public void CallHim(View view)
+    {
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:100"));
+        startActivity(intent);
+
     }
 }
