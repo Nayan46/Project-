@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="app_name">यातायात जानकारी</string>
+
+    <string name="nav_home"></string>
+    <string name="nav_symbols">ट्राफिक प्रतीक</string>
+    <string name="nav_rules">ट्राफिक प्रतीक</string>
+    <string name="nav_more">अधिक</string>
+
+    <string name="logo_name">सबै अधिकार सुरक्षित छन्</string>
+
+
+    <string name="contact_us" > हामीलाई सम्पर्क गर्नुहोस</string>
+    <string name="about_us"> हाम्रोबारे</string>
+    <string name="feedback">प्रतिक्रिया</string>
+    <string name="version">संस्करण ईतिहास</string>
+
+
+    <string name="toolbar_about">हाम्रोबारे</string>
+    <string name="title_activity_maps"> नक्शा </string>
+
+    <string name="home_text_title">यातायात जानकारी</string>
+
+    <string name="item_trules"> ट्राफिक नियम र नियमहरू पालना गर्नुपर्दछ: </string>
+
+    <string name="feedback_hint_name">नाम</string>
+    <string name="feedback_hint_email">ईमेल</string>
+    <string name="feedback_hint_message">सन्देश</string>
+    <string name="feedback_btn1">सर्भरमा पठाउनुहोस्!</string>
+    <string name="feedback_btn2">पठाइएका विवरणहरू हेर्नुहोस्!</string>
+
+
+    <string name="title_home">घर</string>
+    <string name="title_tsymbols">ट्राफिक प्रतीक</string>
+    <string name="title_trules">यातायात नियमहरू</string>
+    <string name="title_more">अधिक</string>
+
+    <string name="title_aboutus">हाम्रोबारे</string>
+    <string name="title_contactus">हामीलाई सम्पर्क गर्नुहोस</string>
+    <string name="title_feedback">प्रतिक्रिया</string>
+    <string name="title_version">संस्करण ईतिहास</string>
+    <string name="title_emergency">आपतकालीन सम्पर्कहरू</string>
+
+    <string name="menu_change_language">भाषा परिवर्तन गर्नुहोस्</string>
+
+
+
+
+    //Recycler View -- Emergency Contacts
+    <string name="a">पुलिस नियन्त्रण १०० </string>
+    <string name="b"> पुलिस आपतकालीन नम्बर 28२२28435</string>
+    <string name="c">महानगर पुलिस दायरा (काठमाडौं) 6२6 १। ./ / 26२26१1790।</string>
+    <string name="d">महानगर पुलिस दायरा (ललितपुर) 21 55२२२०।</string>
+    <string name="e">महानगर पुलिस दायरा (भक्तपुर) 14 66१88२१</string>
+    <string name="f">Paropakar एम्बुलेन्स सेवा 4260859</string>
+    <string name="g">ललितपुर रेडक्रस एम्बुलेन्स सेवा 5545456666</string>
+    <string name="h">विशाल बजार एम्बुलेन्स सेवा 4244121</string>
+    <string name="i">रेडक्रस एम्बुलेन्स सेवा 4228094</string>
+    <string name="j">मातृत्व अस्पताल 4253276</string>
+    <string name="k">नार्भिक अस्पताल 4258554</string>
+    <string name="l">राष्ट्रीय किडनी केन्द्र 4429866/4426016</string>
+    <string name="m">दमकल	१०१</string>
+    <string name="n">रक्त बैंक 4225344</string>
+
+    //Recycler View -- Traffic Symbols
+    <string name="aa">१०% ढलान खतरा चेतावनी चिन्ह</string>
+    <string name="bb">बाइक पथ रोड चिन्ह</string>
+    <string name="cc">खतरा चेतावनी नदी तट रोड साइन</string>
+    <string name="dd">कुनै दाँया मोड छैन यातायात साइन इन</string>
+    <string name="ee">बाँया टर्न यातायात संकेत</string>
+    <string name="ff">गति सीमा सड़क चिन्ह</string>
+    <string name="gg">कुनै ओभरटेकिंग रोड साइन छैन</string>
+    <string name="hh">रोड चेतावनी चिन्ह</string>
+    <string name="ii">पुरुषहरू काममा छन्</string>
+    <string name="jj">कुनै मोटरसाइकल रोड साइन छैन</string>
+    <string name="kk">३टी रोकावट ट्रक रोड साइन</string>
+    <string name="ll">वन वे स्ट्रीट रोड साइन</string>
+    <string name="mm">कुनै प्रवेश ट्राफिक साइन इन छैन</string>
+    <string name="nn">Zigzag Road चेतावनी रोड साइन</string>
+    <string name="oo">चौड़ाई प्रतिबन्ध रोड साइन</string>
+    <string name="pp">पोल साइनमा रोक्नुहोस्</string>
+    <string name="qq">बच्चाहरू ट्राफिक साइन इन</string>
+
+
+
+    // Recycler View  -- Traffic Rules
+    <string name="aaa">ड्राईभिंग गर्दा सँधै तपाईंको ड्राइविंग इजाजतपत्र र महत्त्वपूर्ण कागजातहरू लिनुहोस् जब तपाईंको वाहन पञ्जीकरण प्रमाणपत्र।</string>
+    <string name="bbb">एक मिलियन भन्दा बढि सवारी नगरी लिनु पर्छ र उसले मेशिनलाई सिटमा सिटमा राख्नु पर्छ र दुबै खुट्टा खुट्टामा राख्नु पर्छ।</string>
+    <string name="ccc">पछाडि र छेउमा के छ भनेर जान्नु अघि पछाडि चलाउनु भन्दा पहिले। आफ्नो पछाडि हेर्नुहोस्; यदि फिट भएमा ऐना प्रयोग गर्नुहोस्।</string>
+    <string name="ddd">सवारी चलाउँदा कहिल्यै पिएन।</string>
+    <string name="eee">ट्राफिक संकेतहरू अनुसरण गर्नुहोस्।</string>
+    <string name="fff">गाडी चलाउँदा सेल फोन प्रयोग नगर्नुहोस्। यदि बायाँतर्फ तुरुन्त कदम छ भने, रोक्नुहोस् र त्यसपछि कल लिनुहोस्।</string>
+    <string name="ggg">सधैं हेलमेट प्रयोग गर्नुहोस्।</string>
+    <string name="hhh">फुटपाथमा आफ्नो वाहन सवारी नगर्नुहोस्</string>
+    <string name="iii">सडक प्रयोगकर्ताहरू संकेत बुझ्नुहोस्</string>
+    <string name="jjj">यातायात मा अचानक रोक्नुहोस्। बाँया मा सार्नुहोस् र ढिलो।</string>
+    <string name="kkk">एक सुरक्षा हेलमेट लगाउनु पर्छ। हेल्मेटहरू नियमहरूको पालना गर्नै पर्दछ र तिनीहरू सुरक्षित रूपमा जोड्नु पर्छ।</string>
+    <string name="lll">बच्चाहरूलाई ईन्धन ट्याकमा बस्न वा उनीहरूलाई सवारको अगाडि उभ्याउनुहोस्।</string>
+    <string name="mmm">बाँया सडक साइनिनको लागि खतरनाक श्राप।</string>
+
+
+    //Version History
+    <string name="fee_ver">संस्करण 1.0.0</string>
+    <string name="fee_nav">नेभिगेसन प्रणाली</string>
+    <string name="fee_tsym">यातायात प्रतीक सेक्सन</string>
+    <string name="fee_trules">यातायात नियमहरू सेक्सन</string>
+    <string name="fee_current_date">वर्तमान मिति र समय प्रदर्शन</string>
+    <string name="fee_emergency">आपतकालीन सम्पर्कहरू</string>
+    <string name="fee_about">हाम्रो बारे सेक्सन</string>
+    <string name="fee_contact">हामीलाई सम्पर्क गर्नुहोस् सेक्सन</string>
+    <string name="fee_feedback">प्रतिक्रिया सेक्सन</string>
+    <string name="fee_copy">ट्राफिक्स जानकारी द्वारा प्रतिलिपि अधिकार २०२०</string>
+
+    // About us Activity content
+    <string name="activity_about_us">ट्रैफिक्स जानकारी एन्ड्रोइड स्टुडियो आईडीईमा मोडल व्यू भ्यू मोडल (MVVM) आर्किटेक्चरमा SQLite डाटाबेसको साथ जाभा भाषामा विकसित भएको जाभा भाषामा विकसित अनुप्रयोग-मैत्री र प्रयोग गर्न सजिलो अनुप्रयोग हो। यो एन्ड्रोइड .0.० मा ललिपप र एन्ड्रोइड फोनको माथिको संस्करणमा समर्थन गर्दछ। सामान्यतया .1 .1 .१% एन्ड्रोइडले टोडो अनुप्रयोगलाई समर्थन गर्दछ। ट्र्याफिक्स जानकारीमा आकर्षक र अन्तर्क्रियात्मक प्रयोगकर्ता इन्टरफेस छ र केहि अन्य आश्चर्यजनक सुविधाहरू जस्तै: स्प्लैश स्क्रिन, नेभिगेसन प्रणाली, यातायात प्रतीकहरू र नियम सूचना र प्रतिक्रिया सेक्सन।
+</string>
+
+
+    // Change Language
+    <string name="changeLanguage">भाषा परिवर्तन गर्नुहोस्</string>
+
+
+</resources>

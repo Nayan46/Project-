@@ -17,13 +17,15 @@ public class ContactActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact);
 
         // Setting  title to the Activity
-        getSupportActionBar().setTitle("Emergency Contacts ");
+        getSupportActionBar().setTitle(R.string.title_emergency);
 
         // Setting the Up button in ContactActivity to return to Home fragment
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/feedback_bg"
+    android:background="@color/background"
     tools:context=".Feedback">
 
     <EditText
@@ -16,9 +16,9 @@
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginBottom="5dp"
-        android:textColorHint="@color/background"
+        android:textColorHint="#000000"
         android:ems="10"
-        android:hint="Name"
+        android:hint="@string/feedback_hint_name"
         android:inputType="textPersonName" />
 
     <EditText
@@ -28,9 +28,9 @@
         android:layout_marginBottom="5dp"
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
-        android:textColorHint="@color/background"
+        android:textColorHint="#000000"
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/feedback_hint_email"
         android:inputType="textPersonName" />
 
     <EditText
@@ -40,9 +40,9 @@
         android:layout_marginBottom="15dp"
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
-        android:textColorHint="@color/background"
+        android:textColorHint="#000000"
         android:ems="10"
-        android:hint="Message"
+        android:hint="@string/feedback_hint_message"
         android:inputType="textPersonName" />
 
     <LinearLayout
@@ -57,14 +57,14 @@
             android:layout_weight="1"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="10dp"
-            android:text="Send to server!" />
+            android:text="@string/feedback_btn1" />
 
         <Button
             android:id="@+id/btn_details"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="View sended details!"
+            android:text="@string/feedback_btn2"
             android:layout_marginRight="15dp"
             android:enabled="false"/>
     </LinearLayout>

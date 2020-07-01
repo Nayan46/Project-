@@ -33,24 +33,23 @@ public class SymbolsFragment extends Fragment {
         // Giving Data to Adapter for tSymbols
 
         ArrayList<SymbolModel> list = new ArrayList<>();
-        list.add(new SymbolModel(R.drawable.i , "10% Slope Danger Warning Road Sign"));
-        list.add(new SymbolModel(R.drawable.ii, "Bike Path Road Sign"));
-        list.add(new SymbolModel(R.drawable.iii, "Danger Warning River Bank Road Sign"));
-        list.add(new SymbolModel(R.drawable.iv , "No Right Turn Traffic Sign"));
-        list.add(new SymbolModel(R.drawable.v, "No Left Turn Traffic Sign"));
-        list.add(new SymbolModel(R.drawable.vi , "Speed Limit Road Sign"));
-        list.add(new SymbolModel(R.drawable.vii, "No Overtaking Road Sign"));
-        list.add(new SymbolModel(R.drawable.viii, "Slippery Road Warning Sign"));
-        list.add(new SymbolModel(R.drawable.ix, "Men At Work"));
-        list.add(new SymbolModel(R.drawable.x, "No Motorcycles Road Sign"));
-        list.add(new SymbolModel(R.drawable.xi , "3.5T Restriction Truck Road Sign"));
-        list.add(new SymbolModel(R.drawable.xii, "One Way Street Road Sign"));
-        list.add(new SymbolModel(R.drawable.xiii, "No Entry Traffic Sign"));
-        list.add(new SymbolModel(R.drawable.xiv, "Zigzag Road Warning Road Sign"));
-        list.add(new SymbolModel(R.drawable.xv, "Width Restriction Road Sign"));
-        list.add(new SymbolModel(R.drawable.xvi, "Stop Sign on Pole"));
-        list.add(new SymbolModel(R.drawable.xvii, "Children Traffic Sign"));
-
+        list.add(new SymbolModel(R.drawable.i , R.string.aa));
+        list.add(new SymbolModel(R.drawable.ii, R.string.bb));
+        list.add(new SymbolModel(R.drawable.iii, R.string.cc));
+        list.add(new SymbolModel(R.drawable.iv , R.string.dd));
+        list.add(new SymbolModel(R.drawable.v, R.string.ee));
+        list.add(new SymbolModel(R.drawable.vi , R.string.ff));
+        list.add(new SymbolModel(R.drawable.vii, R.string.gg));
+        list.add(new SymbolModel(R.drawable.viii, R.string.hh));
+        list.add(new SymbolModel(R.drawable.ix, R.string.ii));
+        list.add(new SymbolModel(R.drawable.x, R.string.jj));
+        list.add(new SymbolModel(R.drawable.xi , R.string.kk));
+        list.add(new SymbolModel(R.drawable.xii, R.string.ll));
+        list.add(new SymbolModel(R.drawable.xiii, R.string.mm));
+        list.add(new SymbolModel(R.drawable.xiv, R.string.nn));
+        list.add(new SymbolModel(R.drawable.xv, R.string.oo));
+        list.add(new SymbolModel(R.drawable.xvi, R.string.pp));
+        list.add(new SymbolModel(R.drawable.xvii, R.string.qq));
 
 
         SymbolAdapter adapter = new SymbolAdapter(list, getActivity());
@@ -69,6 +68,6 @@ public class SymbolsFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Traffic Symbols");
+        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.title_tsymbols);
     }
 }

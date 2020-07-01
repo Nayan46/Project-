@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -41,7 +42,7 @@ public class HomeFragment extends Fragment {
 
         TextView textView = rootView.findViewById(R.id.text_view_date);
         textView.setText(currentDate);
-
+        
         //floating action button
         fabAddNew = rootView.findViewById(R.id.fab_add_contact);
 
@@ -71,7 +72,7 @@ public class HomeFragment extends Fragment {
         super.onCreate(savedInstanceState);
 
         // Setting the title for each fragment
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Home");
+        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.title_home);
 
     }
 }

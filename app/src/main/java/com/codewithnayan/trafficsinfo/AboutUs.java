@@ -1,30 +1,40 @@
 package com.codewithnayan.trafficsinfo;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+
 
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Toast;
 
-import java.util.Calendar;
+import com.denzcoskun.imageslider.ImageSlider;
+import com.denzcoskun.imageslider.models.SlideModel;
 
-import mehdi.sakout.aboutpage.AboutPage;
-import mehdi.sakout.aboutpage.Element;
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class AboutUs extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_about_us);
 
         // Setting the Up button in Activity to return to More fragment
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Setting  title to the Activity
-        getSupportActionBar().setTitle("About Us");
+        getSupportActionBar().setTitle(R.string.title_aboutus);
+
+
+        // Image-slider
+        ImageSlider imageSlider = findViewById(R.id.slider);
+        List<SlideModel> slideModels = new ArrayList<>();
+        slideModels.add(new SlideModel(R.drawable.homei));
+        slideModels.add(new SlideModel(R.drawable.homeii));
+        slideModels.add(new SlideModel(R.drawable.homeiii));
+        slideModels.add(new SlideModel(R.drawable.homeiv));
+        imageSlider.setImageList(slideModels, true);
 
     }
 

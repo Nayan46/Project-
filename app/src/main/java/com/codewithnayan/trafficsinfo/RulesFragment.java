@@ -32,19 +32,19 @@ public class RulesFragment extends Fragment {
 
 
         ArrayList<RuleModel> list1 = new ArrayList<>();
-        list1.add(new RuleModel("1.   While driving always carry your driving license and \n      important documents such as your vehicle registration \n      certificate."));
-        list1.add(new RuleModel("2.   MUST NOT carry more than one pillion rider and he/ \n      she MUST sit astride the machine on a proper seat and \n      should keep both feet on the footrests."));
-        list1.add(new RuleModel("3.   You should be aware of what is behind and in the sides \n       before maneuvering. Look behind you; use mirrors if \n       they are fitted."));
-        list1.add(new RuleModel("4.    Never Drink while driving."));
-        list1.add(new RuleModel("5.    Follow the traffic signals, lights and signs."));
-        list1.add(new RuleModel("6.    Avoid using the cell phone when driving. If urgent \n       move to left, stop and then take the call."));
-        list1.add(new RuleModel("7.     Always use a helmet."));
-        list1.add(new RuleModel("8.    Do not ride or wheel your vehicle on to the footpath."));
-        list1.add(new RuleModel("9.    Understand the signals given by other road users and \n       use the same when riding."));
-        list1.add(new RuleModel("10.   Never stop abruptly in traffic. Move to the left and \n        slow down."));
-        list1.add(new RuleModel("11.   MUST wear a protective helmet. Helmets MUST \n        comply with the Regulations and they MUST be \n        fastened securely."));
-        list1.add(new RuleModel("12.   Don't sit children on fuel tanks or stand them in front \n        of the rider"));
-        list1.add(new RuleModel("13.   Dangerous Curse To Left Road Sign"));
+        list1.add(new RuleModel(R.string.aaa));
+        list1.add(new RuleModel(R.string.bbb));
+        list1.add(new RuleModel(R.string.ccc));
+        list1.add(new RuleModel(R.string.ddd));
+        list1.add(new RuleModel(R.string.eee));
+        list1.add(new RuleModel(R.string.fff));
+        list1.add(new RuleModel(R.string.ggg));
+        list1.add(new RuleModel(R.string.hhh));
+        list1.add(new RuleModel(R.string.iii));
+        list1.add(new RuleModel(R.string.jjj));
+        list1.add(new RuleModel(R.string.kkk));
+        list1.add(new RuleModel(R.string.lll));
+        list1.add(new RuleModel(R.string.mmm));
         RuleAdapter adapter1 = new RuleAdapter(list1, getActivity());
         recyclerView.setAdapter(adapter1);
 
@@ -63,6 +63,6 @@ public class RulesFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Traffic Rules");
+        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.title_trules);
     }
 }

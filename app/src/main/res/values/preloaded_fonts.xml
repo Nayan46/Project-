@@ -3,6 +3,7 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/adamina</item>
         <item>@font/allerta</item>
+        <item>@font/amethysta</item>
         <item>@font/cinzel_decorative</item>
         <item>@font/comfortaa_light</item>
     </array>

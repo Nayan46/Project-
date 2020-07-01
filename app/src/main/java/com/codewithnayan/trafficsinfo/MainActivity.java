@@ -9,6 +9,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
@@ -96,4 +98,26 @@ public class MainActivity extends AppCompatActivity  {
     };
 
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_top, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        int id =item.getItemId();
+
+        if (id == R.id.nav_change_language);
+
+        Intent intent = new Intent(MainActivity.this, LanguageActivity.class);
+        startActivity(intent);
+        finish();
+
+        return super.onOptionsItemSelected(item);
+    }
 }
+
+

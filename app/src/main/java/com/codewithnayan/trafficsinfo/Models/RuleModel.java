@@ -2,17 +2,17 @@ package com.codewithnayan.trafficsinfo.Models;
 
 public class RuleModel {
 
-    String txt;
+    int txt;
 
-    public RuleModel(String txt) {
+    public RuleModel(int txt) {
         this.txt = txt;
     }
 
-    public String getTxt() {
+    public int getTxt() {
         return txt;
     }
 
-    public void setTxt(String txt) {
+    public void setTxt(int txt) {
         this.txt = txt;
     }
 }

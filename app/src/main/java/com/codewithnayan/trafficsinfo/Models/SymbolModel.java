@@ -2,9 +2,9 @@ package com.codewithnayan.trafficsinfo.Models;
 
 public class SymbolModel {
     int pic;
-    String text;
+    int text;
 
-    public SymbolModel(int pic, String text) {
+    public SymbolModel(int pic, int text) {
         this.pic = pic;
         this.text = text;
     }
@@ -17,11 +17,11 @@ public class SymbolModel {
         this.pic = pic;
     }
 
-    public String getText() {
+    public int getText() {
         return text;
     }
 
-    public void setText(String text) {
+    public void setText(int text) {
         this.text = text;
     }
 }

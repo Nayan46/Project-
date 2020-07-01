@@ -18,8 +18,33 @@
     <string name="toolbar_about">About Us</string>
     <string name="title_activity_maps">Map</string>
 
+    <string name="home_text_title">Traffic Info</string>
+
 
     <string name="item_trules">Traffic Rules and Regulations Must Be Followed:</string>
+
+    <string name="feedback_hint_name">Name</string>
+    <string name="feedback_hint_email">Email</string>
+    <string name="feedback_hint_message">Message</string>
+    <string name="feedback_btn1">Send to server!</string>
+    <string name="feedback_btn2">View sent details!</string>
+
+
+    // Titles
+
+    <string name="title_home">Home</string>
+    <string name="title_tsymbols">Traffic Symbols</string>
+    <string name="title_trules">Traffic Rules</string>
+    <string name="title_more">More</string>
+
+    <string name="title_aboutus">About Us</string>
+    <string name="title_contactus">Contact US</string>
+    <string name="title_feedback">Feedback</string>
+    <string name="title_version">Version History</string>
+    <string name="title_emergency">Emergency Contacts</string>
+
+    <string name="menu_change_language">Change Language</string>
+
 
 
 
@@ -40,6 +65,44 @@
     <string name="n">Blood Bank	4225344</string>
 
 
+    //Recycler View -- Traffic Symbols
+    <string name="aa">10% Slope Danger Warning Road Sign</string>
+    <string name="bb">Bike Path Road Sign</string>
+    <string name="cc">Danger Warning River Bank Road Sign</string>
+    <string name="dd">No Right Turn Traffic Sign</string>
+    <string name="ee">Left Turn Traffic Sign</string>
+    <string name="ff">Speed Limit Road Sign</string>
+    <string name="gg">No Overtaking Road Sign</string>
+    <string name="hh">Road Warning Sign</string>
+    <string name="ii">Men At Work</string>
+    <string name="jj">No Motorcycles Road Sign</string>
+    <string name="kk">3T Restriction Truck Road Sign</string>
+    <string name="ll">One Way Street Road Sign</string>
+    <string name="mm">No Entry Traffic Sign</string>
+    <string name="nn">Zigzag Road Warning Road Sign</string>
+    <string name="oo">Width Restriction Road Sign</string>
+    <string name="pp">Stop Sign on Pole</string>
+    <string name="qq">Children Traffic Sign</string>
+
+
+
+    // Recycler View  -- Traffic Rules
+    <string name="aaa">While driving always carry your driving license and important documents such as your vehicle registration certificate.</string>
+    <string name="bbb">MUST NOT carry more than one pillion rider and he/she MUST sit astride the machine on a proper seat and should keep both feet on the footrests.</string>
+    <string name="ccc">You should be aware of what is behind and in the sides before maneuvering. Look behind you; use mirrors if they are fitted.</string>
+    <string name="ddd">Never Drink while driving.</string>
+    <string name="eee">Follow the traffic signals, lights and signs.</string>
+    <string name="fff">Avoid using the cell phone when driving. If urgent move to left, stop and then take the call.</string>
+    <string name="ggg">Always use a helmet.</string>
+    <string name="hhh">Do not ride or wheel your vehicle on to the footpath.</string>
+    <string name="iii">Understand the signals given by other road users and use the same when riding.</string>
+    <string name="jjj">Never stop abruptly in traffic. Move to the left and slow down.</string>
+    <string name="kkk">MUST wear a protective helmet. Helmets MUST comply with the Regulations and they MUST be fastened securely.</string>
+    <string name="lll">Dont sit children on fuel tanks or stand them in front of the rider.</string>
+    <string name="mmm">Dangerous Curse To Left Road Sign.</string>
+
+
+
     //Version History
     <string name="fee_ver">Version 1.0.0</string>
     <string name="fee_nav">Navigation System</string>
@@ -50,7 +113,14 @@
     <string name="fee_about">About us section</string>
     <string name="fee_contact">Contact us section</string>
     <string name="fee_feedback">Feedback section</string>
-    <string name="fee_copy">@Copyright 2020 by Traffics Info</string>
+    <string name="fee_copy">Copyright 2020 by Traffics Info</string>
 
+    // About us Activity content
+    <string name="activity_about_us">Traffics Info is a user-friendly and easy to use app developed in java language with SQLite database in Model View View Model (MVVM) architecture on Android Studio IDE. It is support in android 5.0 i.e Lollipop and above version of android phones. In general 94.1% android devides supports Todo app.Traffics Info has attractive and interactive user interface along with some other amazing features such as:splash Screen, navigation system, traffic symbols and rules information and feedback section.</string>
 
+    
+    // Change Language
+    <string name="changeLanguage">Change Language</string>
+    
+    
 </resources>

@@ -13,7 +13,7 @@ public class VersionControl extends AppCompatActivity {
         setContentView(R.layout.activity_version_control);
 
         // Setting  title to the Activity
-        getSupportActionBar().setTitle("Version Control");
+        getSupportActionBar().setTitle(R.string.title_feedback);
 
 
         // Setting the Up button in Activity to return to More fragment

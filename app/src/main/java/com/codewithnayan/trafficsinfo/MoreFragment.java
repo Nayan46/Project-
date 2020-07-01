@@ -70,6 +70,6 @@ public class MoreFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("More");
+        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.title_more);
     }
 }

@@ -21,7 +21,7 @@ public class ContactUs extends AppCompatActivity {
         setContentView(R.layout.activity_contact_us);
 
         // Setting  title to the Activity
-        getSupportActionBar().setTitle("Contact Us");
+        getSupportActionBar().setTitle(R.string.title_contactus);
 
 
         // Setting the Up button in Activity to return to More fragment

@@ -6,7 +6,6 @@
 
 
 
-
     <color name="splash_bg">#17202A</color>
     <color name="background">#D5D8D2</color>
     <color name="icon_color">#464646</color>
@@ -14,7 +13,7 @@
 
     <color name="fav">#374954</color>
     <color name="fag">#DCE4EE</color>
-    <color name="fag_btn">#94ADCA </color>
+    <color name="fag_btn">#89CA59 </color>
 
     <color name="current_date_color">#DCE4EE</color>
     <color name="hr_emergency">#0EBD29</color>
